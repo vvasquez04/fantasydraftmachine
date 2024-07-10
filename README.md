@@ -1,0 +1,1 @@
+WIP - This is a project that will build a terminal-based Java program that is used to aid a fantasy football player in identifying values in their fantasy drafts as players go off the board, based on a set of grouped tiers of players they provide as input.
