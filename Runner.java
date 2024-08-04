@@ -121,19 +121,19 @@ public class Runner {
         System.out.println("Current Top Players:");
         System.out.println("QBS");
         for(int i = 0; i < 5; i++){
-            System.out.println((i+1) + ") " + qbs.get(i+1).name + ", " + qbs.get(i+1).team + ", Tier " + qbs.get(i+1).tier + ", ADP " + qbs.get(i+1).adp);
+            System.out.println((i+1) + ") " + qbs.get(i).name + ", " + qbs.get(i).team + ", Tier " + qbs.get(i).tier + ", ADP " + qbs.get(i).adp);
         }
         System.out.println("RBS");
         for(int i = 0; i < 5; i++){
-            System.out.println((i+1) + ") " + rbs.get(i+1).name + ", " + rbs.get(i+1).team + ", Tier " + rbs.get(i+1).tier + ", ADP " + rbs.get(i+1).adp);
+            System.out.println((i+1) + ") " + rbs.get(i).name + ", " + rbs.get(i).team + ", Tier " + rbs.get(i).tier + ", ADP " + rbs.get(i).adp);
         }
         System.out.println("WRS");
         for(int i = 0; i < 5; i++){
-            System.out.println((i+1) + ") " + wrs.get(i+1).name + ", " + wrs.get(i+1).team + ", Tier " + wrs.get(i+1).tier + ", ADP " + wrs.get(i+1).adp);
+            System.out.println((i+1) + ") " + wrs.get(i).name + ", " + wrs.get(i).team + ", Tier " + wrs.get(i).tier + ", ADP " + wrs.get(i).adp);
         }
         System.out.println("TES");
         for(int i = 0; i < 5; i++){
-            System.out.println((i+1) + ") " + tes.get(i+1).name + ", " + tes.get(i+1).team + ", Tier " + tes.get(i+1).tier + ", ADP " + tes.get(i+1).adp);
+            System.out.println((i+1) + ") " + tes.get(i).name + ", " + tes.get(i).team + ", Tier " + tes.get(i).tier + ", ADP " + tes.get(i).adp);
         }
     }
 
