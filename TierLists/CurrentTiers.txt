@@ -4,7 +4,7 @@ Lamar Jackson/BAL/4/36.4
 Josh Allen/BUF/5/27.4
 Pat Mahomes/KC/5/28.6
 Kyler Murray/ARI/6/88.9
-Dak Prescott/DAl/7/68.4
+Dak Prescott/DAL/7/68.4
 Joe Burrow/CIN/7/66.7
 CJ Stroud/HOU/7/45.5
 Brock Purdy/SF/7/107.7
@@ -164,3 +164,4 @@ Luke Musgrave/GB/11/169.2
 Ben Sinnott/WAS/14/168.4
 Taysom Hill/NO/14/165.8
 Mike Gesicki/MIA/14/169.7
+END
