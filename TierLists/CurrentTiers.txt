@@ -143,7 +143,7 @@ Adam Thielen/CAR/16/160.1
 Marvin Mims/DEN/16/169.6
 Darnell Mooney/ATL/16/152.5
 Michael Wilson/ARI/16/170.0
-Demario Douglas/NE/164.4
+Demario Douglas/NE/16/164.4
 TE
 Sam LaPorta/DET/4/29.9
 Travis Kelce/KC/4/23.5
