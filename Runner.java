@@ -25,7 +25,7 @@ public class Runner {
         System.out.println("Enter Txt file name");
         String fileName = StdIn.readString();
 
-        if (fileName.length() >= 5) {
+        if(fileName.length() >= 5) {
             if(fileName.substring(fileName.length() - 4).equals(".txt")) {
                 if(readFile(fileName, qbs, rbs, wrs, tes)) {
                     return true;
@@ -47,7 +47,7 @@ public class Runner {
         Path inputsFolderPath = Paths.get("TierLists", fileName);
         if(Files.exists(inputsFolderPath)) {
             fileName = "TierLists/" + fileName;
-        } else if (!(Files.exists(path))) {
+        } else if(!(Files.exists(path))) {
             System.out.println("File does not exist in the current directory");
             return false;
         }
@@ -143,7 +143,7 @@ public class Runner {
         System.out.println("Pick " + currentPickNum);
         System.out.println("Selected Player: ");
         String pickedPlayer = StdIn.readLine();
-        if (pickedPlayer.equals("END")) {
+        if(pickedPlayer.equals("END")) {
             draftSummary(draftedPlayers);
             return;
         }
@@ -151,17 +151,17 @@ public class Runner {
         boolean playerFound = false;
 
         playerFound = removePlayerFromList(qbs, pickedPlayer, draftedPlayers);
-        if (!playerFound) {
+        if(!playerFound) {
             playerFound = removePlayerFromList(rbs, pickedPlayer, draftedPlayers);
         }
-        if (!playerFound) {
+        if(!playerFound) {
             playerFound = removePlayerFromList(wrs, pickedPlayer, draftedPlayers);
         }
-        if (!playerFound) {
+        if(!playerFound) {
             playerFound = removePlayerFromList(tes, pickedPlayer, draftedPlayers);
         }
 
-        if (!playerFound) {
+        if(!playerFound) {
             System.out.println("Player does not exist or has been drafted");
             runDraft(qbs, rbs, wrs, tes, currentPickNum, draftedPlayers);
         } else {
@@ -174,9 +174,11 @@ public class Runner {
         Iterator<Player> it = players.iterator();
         while (it.hasNext()) {
             Player p = it.next();
-            if (pickedPlayer.trim().equalsIgnoreCase(p.name.trim())) {
+            if(pickedPlayer.trim().equalsIgnoreCase(p.name.trim())) {
                 draftedPlayers.add(p);
                 it.remove();
+                return true;
+            } else if((pickedPlayer.trim().equalsIgnoreCase("def")) || (pickedPlayer.trim().equalsIgnoreCase("k"))) {
                 return true;
             }
         }
