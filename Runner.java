@@ -120,21 +120,49 @@ public class Runner {
         
         System.out.println("Current Top Players:");
         System.out.println("QBS");
-        for(int i = 0; i < 5; i++){
+        int qbSize = qbs.size();
+        for(int i = 0; i < Math.min(5, qbSize); i++){
             System.out.println((i+1) + ") " + qbs.get(i).name + ", " + qbs.get(i).team + ", Tier " + qbs.get(i).tier + ", ADP " + qbs.get(i).adp);
         }
+        if (qbSize < 5) {
+            for(int i = qbSize; i < 5; i++) {
+                System.out.println((i+1) + ") No more QBs available");
+            }
+        }
+
         System.out.println("RBS");
-        for(int i = 0; i < 5; i++){
+        int rbSize = rbs.size();
+        for(int i = 0; i < Math.min(5, rbSize); i++){
             System.out.println((i+1) + ") " + rbs.get(i).name + ", " + rbs.get(i).team + ", Tier " + rbs.get(i).tier + ", ADP " + rbs.get(i).adp);
         }
+        if (rbSize < 5) {
+            for(int i = rbSize; i < 5; i++) {
+                System.out.println((i+1) + ") No more RBs available");
+            }
+        }
+
         System.out.println("WRS");
-        for(int i = 0; i < 5; i++){
+        int wrSize = wrs.size();
+        for(int i = 0; i < Math.min(5, wrSize); i++){
             System.out.println((i+1) + ") " + wrs.get(i).name + ", " + wrs.get(i).team + ", Tier " + wrs.get(i).tier + ", ADP " + wrs.get(i).adp);
         }
+        if (wrSize < 5) {
+            for(int i = wrSize; i < 5; i++) {
+                System.out.println((i+1) + ") No more WRs available");
+            }
+        }
+
         System.out.println("TES");
-        for(int i = 0; i < 5; i++){
+        int teSize = tes.size();
+        for(int i = 0; i < Math.min(5, teSize); i++){
             System.out.println((i+1) + ") " + tes.get(i).name + ", " + tes.get(i).team + ", Tier " + tes.get(i).tier + ", ADP " + tes.get(i).adp);
         }
+        if (teSize < 5) {
+            for(int i = teSize; i < 5; i++) {
+                System.out.println((i+1) + ") No more TEs available");
+            }
+        }
+
     }
 
     public static void runDraft(ArrayList<Player> qbs, ArrayList<Player> rbs, ArrayList<Player> wrs, ArrayList<Player> tes, int currentPickNum, ArrayList<Player> draftedPlayers) {
