@@ -46,6 +46,7 @@ David Montgomery/DET/5/76.2
 Rhamondre Stevenson/NE/6/67.4
 D'Andre Swift/CHI/6/75.2
 Aaron Jones/MIN/6/64.1
+Javonte Williams/DEN/7/108.7
 Brian Robinson/WAS/7/95.4
 Tyjae Spears/TEN/7/109.4
 Tony Pollard/TEN/7/107.2
@@ -56,17 +57,16 @@ Jonathon Brooks/CAR/9/92.9
 Blake Corum/LAR/9/130.1
 Nick Chubb/CLE/10/110.5
 Raheem Mostert/MIA/10/104.5
-Javonte Williams/DEN/10/108.7
 Zamir White/LV/10/81.0
 Devin Singletary/NYG/11/121.4
 Gus Edwards/LAC/11/136.6
 Zack Moss/CIN/11/113.1
+Chuba Hubbard/CAR/11/166.8
+Jerome Ford/CLE/12/133.8
 Zach Charbonnet/SEA/12/139.2
 Trey Benson/ARI/12/135.8
 Ezekiel Elliott/DAL/12/113.2
 Austin Ekeler/WAS/13/109.7
-Jerome Ford/CLE/13/133.8
-Chuba Hubbard/CAR/13/166.8
 Jaleel McLaughlin/DEN/14/166.0
 JK Dobbins/LAC/14/139.4
 Ty Chandler/MIN/14/161.0
