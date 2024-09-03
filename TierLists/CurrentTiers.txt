@@ -110,10 +110,10 @@ Michael Pittman/IND/7/29.8
 Rashee Rice/KC/7/100.2
 Tank Dell/HOU/7/72.0
 Deebo Samuel/SF/8/48.6
+Diontae Johnson/CAR/8/103.3
 Jayden Reed/GB/8/101.0
 Christian Kirk/JAX/8/99.9
 Chris Godwin/TB/8/89.9
-Diontae Johnson/CAR/8/103.3
 Calvin Ridley/TEN/9/75.1
 Keenan Allen/CHI/9/86.0
 Xavier Worthy/KC/9/116.8
@@ -154,8 +154,8 @@ Travis Kelce/KC/4/23.5
 Mark Andrews/BAL/5/42.4
 Kyle Pitts/ATL/5/72.3
 Trey McBride/ARI/5/55.4
-Dalton Kincaid/BUF/6/64.2
-Evan Engram/JAX/7/67.3
+Dalton Kincaid/BUF/5/64.2
+Evan Engram/JAX/6/67.3
 Jake Ferguson/DAL/7/101.1
 George Kittle/SF/7/56.9
 David Njoku/CLE/8/87.7
